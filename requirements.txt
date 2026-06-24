@@ -6,6 +6,7 @@ joblib
 plotly
 matplotlib
 seaborn
+xgboost
 rasterio
 geopandas
 folium
