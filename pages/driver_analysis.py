@@ -9,7 +9,7 @@ import pandas as pd
 import rasterio
 import joblib
 import plotly.express as px
-# import seaborn as sns
+import seaborn as sns
 import matplotlib.pyplot as plt
 
 from config import (
