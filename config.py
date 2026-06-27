@@ -5,13 +5,13 @@ Every page imports from here so paths never break
 
 import os
 
-# Base folder = wherever this project lives, on ANY computer
+
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 DATA_DIR  = os.path.join(BASE_DIR, "data", "Patna_Heat_Project")
 MODEL_DIR = os.path.join(BASE_DIR, "models")
 
-# Data file paths
+
 LST_PATH    = os.path.join(DATA_DIR, "Patna_LST_Summer2023.tif")
 NDVI_PATH   = os.path.join(DATA_DIR, "Patna_NDVI_Summer2023.tif")
 LULC_PATH   = os.path.join(DATA_DIR, "Patna_LULC_2021.tif")
